@@ -1,3 +1,4 @@
+@regression
 Feature: : As a user, I want to view my own user information using the API
   so that I can see what information is stored about me
 
@@ -17,8 +18,8 @@ Feature: : As a user, I want to view my own user information using the API
 
 
     Examples:
-      | email                | password    | user_group_id |
-      | student5@library     | libraryUser | 3             |
-      | librarian10@library  | libraryUser | 2             |
-      | student10@library    | libraryUser | 3             |
+      | email               | password    | user_group_id |
+      | student5@library    | libraryUser | 3             |
+      | librarian10@library | libraryUser | 2             |
+      | student10@library   | libraryUser | 3             |
       | librarian13@library | libraryUser | 2             |
